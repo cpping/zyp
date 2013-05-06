@@ -1,5 +1,0 @@
-c:\users\zhangyuping\documents\visual studio 2010\Projects\WebApp2\WebApp2\bin\WebApp2.dll
-c:\users\zhangyuping\documents\visual studio 2010\Projects\WebApp2\WebApp2\bin\WebApp2.pdb
-c:\users\zhangyuping\documents\visual studio 2010\Projects\WebApp2\WebApp2\obj\Debug\ResolveAssemblyReference.cache
-c:\users\zhangyuping\documents\visual studio 2010\Projects\WebApp2\WebApp2\obj\Debug\WebApp2.dll
-c:\users\zhangyuping\documents\visual studio 2010\Projects\WebApp2\WebApp2\obj\Debug\WebApp2.pdb

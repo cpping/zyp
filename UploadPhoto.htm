@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>批量上传文件DEMO</title>
+   <link type="text/css" rel="Stylesheet" href="css/album.css" />
+    <script language="javascript" type="text/javascript" src="js/jquery.js"></script>
+    <script language="javascript" type="text/javascript" src="js/jui.js"></script>
+    <script language="javascript" type="text/javascript" src="js/public.js"></script>
+    <script language="javascript" type="text/javascript" src="js/Jui.uploadObject.js"></script>
+</head>
+<body>
+<div id="Layout_2">
+<div id="Uploadimg" class="cols_1">
+<h1>上传照片</h1>
+<div id="AlbumUpload" class="album meat"><!--upLoad_S-->
+<div class="upLoad">
+<div class="selAlbum">选择相册： 
+<select id="selAlbumList"> 
+<option  value="-1">我的相册</option>
+</select>
+ </div>
+<div class="btnCreate"><a class="iBtn" title="创建相册" href="javascript:Jui.photo.showDiv('AlbumCreate');"><span>创建相册</span></a></div>
+<div id="uploadPanel">
+<div class="divLine">
+<form enctype="multipart/form-data" method="post" action="uploadPhoto.aspx" target="ifrUpload" name="aaa">
+<input type="hidden" name="uploadid" value="1"/>
+ <input value="6" type="hidden" name="upType"/> 
+ <input value="image" type="hidden" name="fileType"/> 
+ <input value="相册" type="hidden" name="upName"/> 
+<input value="10584630" type="hidden" name="userid"/> 1.
+<input id="filedir1" class="iText width300" onchange="Jui.photo.checkSize(1);" size="40" type="file" name="file"/> 
+</form></div>
+<div class="divLine">
+<form enctype="multipart/form-data" method="post" action="uploadPhoto.aspx" target="ifrUpload" name="bb">
+<input type="hidden" name="uploadid" value="2"/>
+ <input value="6" type="hidden" name="upType"/> 
+ <input value="image" type="hidden" name="fileType"/> 
+ <input value="相册" type="hidden" name="upName"/> 
+<input value="10584630" type="hidden" name="userid"/> 2.
+<input id="filedir2" class="iText width300" onchange="Jui.photo.checkSize(2);" size="40" type="file" name="file"/> 
+</form></div>
+
+<div class="divLine">
+<form enctype="multipart/form-data" method="post" action="uploadPhoto.aspx" target="ifrUpload" name="cc">
+<input type="hidden" name="uploadid"  value="3"/>
+ <input value="6" type="hidden" name="upType"/> 
+ <input value="image" type="hidden" name="fileType"/> 
+ <input value="相册" type="hidden" name="upName"/> 
+<input value="10584630" type="hidden" name="userid"/> 3.
+<input id="filedir3" class="iText width300" onchange="Jui.photo.checkSize(3);" size="40" type="file" name="file"/> 
+</form></div>
+
+<div class="divLine">
+<form enctype="multipart/form-data" method="post" action="uploadPhoto.aspx" target="ifrUpload">
+<input type="hidden" name="uploadid"/>
+ <input value="6" type="hidden" name="upType"/> 
+ <input value="image" type="hidden" name="fileType"/> 
+ <input value="相册" type="hidden" name="upName"/> 
+<input value="10584630" type="hidden" name="userid"/> 4.
+<input id="filedir4" class="iText width300" onchange="Jui.photo.checkSize(4);" size="40" type="file" name="file"/> 
+</form></div>
+
+<div class="divLine">
+<form enctype="multipart/form-data" method="post" action="uploadPhoto.aspx" target="ifrUpload">
+<input type="hidden" name="uploadid"/>
+ <input value="6" type="hidden" name="upType"/> 
+ <input value="image" type="hidden" name="fileType"/> 
+ <input value="相册" type="hidden" name="upName"/> 
+<input value="10584630" type="hidden" name="userid"/> 5.
+<input id="filedir5" class="iText width300" onchange="Jui.photo.checkSize(5);" size="40" type="file" name="file"/> 
+</form></div>
+
+<div class="divLine">
+<form enctype="multipart/form-data" method="post" action="uploadPhoto.aspx" target="ifrUpload">
+<input type="hidden" name="uploadid"/>
+ <input value="6" type="hidden" name="upType"/> 
+ <input value="image" type="hidden" name="fileType"/> 
+ <input value="相册" type="hidden" name="upName"/> 
+<input value="10584630" type="hidden" name="userid"/> 6.
+<input id="filedir6" class="iText width300" onchange="Jui.photo.checkSize(6);" size="40" type="file" name="file"/> 
+</form></div>
+
+</div>
+<div class="divLine">
+<div class="btnUpload"><a class="iBtn" title="开始上传" href="javascript:Jui.uploadObject.init();"><span>开始上传</span></a></div></div>
+
+<p>温馨提示：1、单张图片最大<span>10M</span><BR>　　　　　2、支持<span>jpg</span>，<span>gif</span>，<span>png</span>，<span>bmp</span>格式 
+</p></div><!--upLoad_E--><!--upView_S-->
+<div class="upView">
+<div class="divLine">图片预览：</div>
+<ul>
+  <li>
+  <div class="p"><img id="img1" alt="" 
+  src="images/uploadimg_default.jpg"/></div>
+  <div class="d" id="preTitle1">1</div></li>
+  <li>
+  <div class="p"><img id="img2" alt="" 
+  src="images/uploadimg_default.jpg"/></div>
+  <div class="d" id="preTitle2">2</div></li>
+  <li>
+  <div class="p"><img id="img3" alt="" 
+  src="images/uploadimg_default.jpg"/></div>
+  <div class="d" id="preTitle3">3</div></li>
+  <li>
+  <div class="p"><img id="img4" alt="" 
+  src="images/uploadimg_default.jpg"/></div>
+  <div class="d" id="preTitle4">4</div></li>
+  <li>
+  <div class="p"><img id="img5" alt="" 
+  src="images/uploadimg_default.jpg"/></div>
+  <div class="d" id="preTitle5">5</div></li>
+  <li>
+  <div class="p"><img id="img6" alt="" 
+  src="images/uploadimg_default.jpg"/></div>
+  <div class="d" id="preTitle6">6</div></li></ul></div>
+  
+</div></div></div>
+<!--floatdiv_S-->
+<div id="AlbumCreate" class="floatDiv">
+<div class="fix">
+<h2>创建相册</h2>
+<div class="meat">
+<p>相册名称：<input id="albumName" class="iText" name="albumName"></p>
+<p><span id="span_errmsg"></span></p><button class="iBtn w1" 
+onclick="Jui.photo.createAlbum();"><span>确定</span></button><button class="iBtn w1" 
+onclick="Jui.photo.hideDiv('AlbumCreate');" value="取 消"><span>取消</span></button> 
+</div>
+<div 
+class="close"><input onclick="Jui.photo.hideDiv('AlbumCreate');" type="button"></div></div></div><!--AlbumCreate_E-->
+<div id="AUploadSel" class="floatDiv">
+<div class=fix>
+<h2>温馨提示</h2>
+<div class=meat>
+<p>请选择一张图片</p><button class="iBtn w1" 
+onclick="Jui.photo.hideDiv('AUploadSel');"><span>确定</span></button> </div>
+<div 
+class="close"><input onclick="Jui.photo.hideDiv('AUploadSel');" type="button"></div></div></div><!--AUploadSel_E-->
+<div id="AUploadType" class="floatDiv">
+<div class="fix">
+<h2>温馨提示</h2>
+<div class="meat">
+<p>图片文件格式不正确，只支持jpg，gif，png，bmp格式</p><button class="iBtn w1" 
+onclick="Jui.photo.hideDiv('AUploadType');"><span>确定</span></button> </div>
+<div 
+class="close"><input onclick="Jui.photo.hideDiv('AUploadType');" type="button"></div></div></div><!--AUploadType_E-->
+<div id="AUploadBig" class="floatDiv">
+<div class="fix">
+<h2>温馨提示</h2>
+<div class="meat">
+<p>该图片超过10M，请处理成小于10M的图片后上传</p><button class="iBtn w1" 
+onclick="Jui.photo.hideDiv('AUploadBig');"><span>确定</span></button> </div>
+<div 
+class="close"><input onclick="Jui.photo.hideDiv('AUploadBig');" type=button></div></div></div><!--AUploadBig_E-->
+<div id="PicUploading" class="uploading floatDiv">
+<div class="fix">
+<div class="meat">
+<p class="ing">正在上传第<span id=UP1>6</span>张图片，请稍候…… <a title="跳过这张" 
+href="javascript:Jui.PMHUpload.cancelUpload()">跳过这张</a></p>
+<div class="uploadbar"><span style="WIDTH: 0%" id="UP2">0%</span></div>
+<div class="info">
+<div class="s1"><span id="UP6">0</span>KB/<span id="UP7">0</span>KB</div>
+<div class="s2">估计剩余时间：<span id="UP4">0</span></div>
+<div class="s3">上传速度：<span id="UP5">0</span>K/s</div></div></div></div></div><!--PicUploading_E-->
+<div id="PicUploaded" class="floatDiv">
+<div class="fix">
+<h2>温馨提示</h2>
+<div class="meat">
+<p><button class="iBtn w1" 
+onclick="Jui.photo.hideDiv('PicUploaded');Jui.photo.redirecturl();"><span>确定</span></button> 
+</p></div>
+<div class="close"><input onclick="Jui.photo.hideDiv('PicUploaded');redirecturl();" type="button"></div></div></div><!--PicUploaded_E-->
+<iframe id="ifrUpload" src="pageviewstat.htm" frameBorder="0" width="0" height="0" name="ifrUpload"></iframe>
+</body>
+</html>

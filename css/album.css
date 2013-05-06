@@ -1,0 +1,358 @@
+﻿@import url( public.css );
+#Main {
+	WIDTH: 1000px
+}
+#Layout_1 {
+	VERTICAL-ALIGN: middle
+}
+#Layout_2 {
+	VERTICAL-ALIGN: middle;float:left
+}
+#Main {
+	VERTICAL-ALIGN: middle
+}
+#B-Manage-Album-Manage .btnCreate {
+	FLOAT: right
+}
+#AlbumManage .m {
+	BACKGROUND: url(images/album_sprite.png) 5px -36px
+}
+#PhotoManage .m {
+	BACKGROUND: url(images/album_photo_btn.png) no-repeat 5px 0px
+}
+#AlbumManage .meat {
+	PADDING-BOTTOM: 25px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(images/dot.png) repeat-x 0px bottom; PADDING-TOP: 25px
+}
+#PhotoManage .meat {
+	PADDING-BOTTOM: 25px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(images/dot.png) repeat-x 0px bottom; PADDING-TOP: 25px
+}
+#Figure {
+	PADDING-BOTTOM: 25px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(images/dot.png) repeat-x 0px bottom; PADDING-TOP: 25px
+}
+#Uploadimg {
+	PADDING-BOTTOM: 6px
+}
+#MyAlbum .ac {
+	BORDER-BOTTOM: #e4e0d5 1px solid; BORDER-LEFT: #e4e0d5 1px solid; BORDER-TOP: #e4e0d5 1px solid; BORDER-RIGHT: #e4e0d5 1px solid
+}
+#PhotoManage .btnMove {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 40px; PADDING-RIGHT: 0px; PADDING-TOP: 15px
+}
+#PhotoManage .btnMove .iBtn {
+	WIDTH: 150px
+}
+#PhotoManage .pager {
+	PADDING-BOTTOM: 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 18px
+}
+.cols_1 .meat {
+	
+}
+.mAlbum {
+	BORDER-BOTTOM: #ccc 1px solid; POSITION: relative; BORDER-LEFT: #ccc 1px solid; MARGIN: 0px 0px 20px 40px; WIDTH: 128px; DISPLAY: inline; FLOAT: left; HEIGHT: 170px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.mAlbum H3 {
+	BORDER-BOTTOM: silver 1px solid; PADDING-LEFT: 5px; FONT: 12px/22px arial; BACKGROUND: url(images/album_sprite.png) right top; HEIGHT: 22px; CURSOR: move
+}
+.mAlbum .p {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; WIDTH: 120px; PADDING-RIGHT: 4px; BACKGROUND: url(images/manage/sprite.png) no-repeat 2px -164px; HEIGHT: 90px; FONT-SIZE: 78px; OVERFLOW: hidden; PADDING-TOP: 4px
+}
+.mAlbum .p IMG {
+	VERTICAL-ALIGN: middle
+}
+.mAlbum .d {
+	MARGIN-TOP: 3px
+}
+.mAlbum .d_title {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 18px; PADDING-LEFT: 3px; WIDTH: 75px; PADDING-RIGHT: 5px; FLOAT: left; HEIGHT: 18px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.mAlbum .d_title A {
+	COLOR: #666; TEXT-DECORATION: none
+}
+.mAlbum .d_title A:hover {
+	COLOR: #666; TEXT-DECORATION: underline
+}
+#B-Manage-Album-Manage .mAlbum .d_title INPUT {
+	WIDTH: 70px; HEIGHT: 12px; COLOR: #666; FONT-SIZE: 12px
+}
+.mAlbum .d_count {
+	LINE-HEIGHT: 18px; FLOAT: right; COLOR: #999; MARGIN-RIGHT: 2px
+}
+.mAlbum .h {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 18px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #666; CLEAR: both; VERTICAL-ALIGN: middle; PADDING-TOP: 0px
+}
+.mAlbum .h LABEL {
+	MARGIN: 0px; FLOAT: left
+}
+.mAlbum .h A {
+	FLOAT: right; COLOR: #d93510; MARGIN-RIGHT: 3px; TEXT-DECORATION: underline
+}
+.mAlbum .h A:hover {
+	TEXT-DECORATION: none
+}
+.mAlbum .c {
+	POSITION: absolute; TEXT-INDENT: -9876px; WIDTH: 22px; BACKGROUND: url(images/manage/sprite.png) no-repeat -559px -93px; HEIGHT: 21px; TOP: 0px; CURSOR: pointer; RIGHT: 0px
+}
+.album .pager {
+	PADDING-RIGHT: 30px
+}
+#MyAlbum .s {
+	BORDER-BOTTOM: #afd1e4 1px solid; BORDER-LEFT: #afd1e4 1px solid; BACKGROUND: #fcffff; BORDER-TOP: #afd1e4 1px solid; BORDER-RIGHT: #afd1e4 1px solid
+}
+#MyAlbum .s .d_title A {
+	COLOR: #333
+}
+#MyAlbum .s .h_i {
+	COLOR: #333
+}
+#MyAlbum .s .h_2 A {
+	COLOR: #333
+}
+#B-Manage-AlbumPhoto .btnUpload_A {
+	FLOAT: right
+}
+#B-Manage-AlbumPhoto .guide {
+	HEIGHT: 50px
+}
+.guide P {
+	FONT: 12px/28px 宋体; FLOAT: left
+}
+.guide P SPAN {
+	COLOR: #ff2e00
+}
+.guide .tips {
+	COLOR: #ff2e00; CLEAR: both
+}
+#B-Manage-AlbumPhoto .d_title {
+	WIDTH: 118px; _line-height: 20px
+}
+#B-Manage-AlbumPhoto .mAlbum {
+	HEIGHT: 170px
+}
+.mAlbum .h_1 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 6px; PADDING-RIGHT: 5px; CLEAR: both; PADDING-TOP: 0px
+}
+.mAlbum .h_2 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 6px; PADDING-RIGHT: 5px; CLEAR: both; PADDING-TOP: 0px
+}
+.mAlbum .h_1 A {
+	FLOAT: left
+}
+.mAlbum .h_1 .h_i {
+	COLOR: #777; MARGIN-RIGHT: 30px
+}
+.mAlbum .h_1 .h_e {
+	COLOR: #ff2e00
+}
+.mAlbum .h_1 .h_d {
+	FLOAT: right; COLOR: #ff2e00
+}
+.mAlbum .h_2 A {
+	FLOAT: left; COLOR: #666
+}
+.mAlbum .h_1 .cover {
+	LINE-HEIGHT: 20px; FLOAT: left; COLOR: #333 !important; MARGIN-RIGHT: 30px; TEXT-DECORATION: underline
+}
+.mAlbum .h_2 .figure {
+	COLOR: #333; TEXT-DECORATION: underline
+}
+.btnCreate {
+	WIDTH: 90px
+}
+#uploadPanel {
+	PADDING-TOP: 16px
+}
+#AlbumUpload {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 12px; _zoom: 1
+}
+.upLoad {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; HEIGHT: 420px; OVERFLOW: hidden; PADDING-TOP: 15px
+}
+.upView {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; HEIGHT: 420px; OVERFLOW: hidden; PADDING-TOP: 15px
+}
+.upLoad {
+	WIDTH: 370px; _width: 370px
+}
+.upView {
+	BORDER-LEFT: silver 1px dashed; MARGIN-TOP: 1px; PADDING-LEFT: 40px; WIDTH: 320px
+}
+.upView .divLine {
+	TEXT-ALIGN: left !important
+}
+.upView UL {
+	BACKGROUND: #fdfdfd; OVERFLOW: hidden; _zoom: 1
+}
+.upView li {
+	MARGIN: 0px 23px 5px 0px; DISPLAY: inline; FLOAT: left; VERTICAL-ALIGN: middle
+}
+.upView .p {
+	BORDER-BOTTOM: #ddd 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #ddd 1px solid; WIDTH: 126px; HEIGHT: 96px; FONT-SIZE: 80px; OVERFLOW: hidden; BORDER-TOP: #ddd 1px solid; BORDER-RIGHT: #ddd 1px solid
+}
+.upView .d {
+	TEXT-ALIGN: center !important; LINE-HEIGHT: 24px; WIDTH: 126px; HEIGHT: 30px; COLOR: #666
+}
+.upView li IMG {
+	MARGIN: 3px; VERTICAL-ALIGN: middle
+}
+#AlbumUpload .upLoad div {
+	FLOAT: left
+}
+#AlbumUpload INPUT.iText {
+	BORDER-BOTTOM: #d2d3c7 1px solid; BORDER-LEFT: #d2d3c7 1px solid; WIDTH: 265px; HEIGHT: 20px; COLOR: #666; MARGIN-LEFT: 0px; BORDER-TOP: #d2d3c7 1px solid; BORDER-RIGHT: #d2d3c7 1px solid
+}
+.upLoad .selAlbum {
+	MARGIN: 3px 10px 0px 37px; DISPLAY: inline
+}
+#AlbumUpload .divLine {
+	MARGIN: 3px 0px; WIDTH: 100%; FLOAT: none; HEIGHT: 34px; COLOR: #444; OVERFLOW: visible; _height: auto
+}
+.upLoad .divLine {
+	PADDING-LEFT: 37px; HEIGHT: 34px
+}
+#AlbumUpload .btnUpload {
+	TEXT-ALIGN: center
+}
+#AlbumUpload P {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 30px; PADDING-LEFT: 30px; PADDING-RIGHT: 0px; HEIGHT: 80px; COLOR: #666; CLEAR: both; PADDING-TOP: 37px
+}
+#AlbumUpload P SPAN {
+	COLOR: #ff2e00
+}
+#B-Manage-AlbumUploadNet .iText {
+	TEXT-INDENT: 5px
+}
+.divLine .iBtn {
+	MARGIN: 10px 0px 0px 100px
+}
+.floatDiv {
+	DISPLAY: none
+}
+.floatDiv .meat {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; PADDING-TOP: 20px
+}
+.floatDiv BUTTON {
+	MARGIN: 10px
+}
+#APhotoEdit P {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 10px
+}
+#APhotoEdit TEXTAREA {
+	BORDER-BOTTOM: #91bcda 1px solid; BORDER-LEFT: #91bcda 1px solid; WIDTH: 300px; HEIGHT: 54px; VERTICAL-ALIGN: top; BORDER-TOP: #91bcda 1px solid; BORDER-RIGHT: #91bcda 1px solid
+}
+#AlbumDelete2 {
+	WIDTH: 400px
+}
+#AlbumDelete2 P {
+	TEXT-ALIGN: left; LINE-HEIGHT: 24px; PADDING-LEFT: 30px
+}
+#AlbumDelete2 P SPAN {
+	COLOR: red
+}
+#AlbumDelete P SPAN {
+	COLOR: red
+}
+#B-Manage-Album-Photo .floatDiv .meat {
+	TEXT-ALIGN: center
+}
+#AlbumCreate .meat {
+	TEXT-ALIGN: center
+}
+#AUploadSel .meat {
+	TEXT-ALIGN: center
+}
+#AUploadType .meat {
+	TEXT-ALIGN: center
+}
+#Delfigure .meat {
+	TEXT-ALIGN: center
+}
+#Setfigure .meat {
+	TEXT-ALIGN: center
+}
+.floatDiv .h2 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#AlbumCreate P {
+	LINE-HEIGHT: 24px
+}
+#AlbumCreate2 P {
+	LINE-HEIGHT: 24px
+}
+#AlbumCreate P SPAN {
+	COLOR: red; PADDING-TOP: 20px
+}
+#AlbumCreate2 P SPAN {
+	COLOR: red; PADDING-TOP: 20px
+}
+#B-Manage-Album-Manage .floatDiv .meat {
+	TEXT-ALIGN: center
+}
+.uploading {
+	WIDTH: 410px
+}
+.uploading A {
+	COLOR: #ff2e00; TEXT-DECORATION: underline
+}
+.uploading A:hover {
+	TEXT-DECORATION: none
+}
+.uploading .ing {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 5px; PADDING-LEFT: 28px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.uploading .ing SPAN {
+	MARGIN: 0px 4px; COLOR: #ff2e00
+}
+.uploading .info {
+	TEXT-ALIGN: left; PADDING-LEFT: 28px
+}
+.uploading .info div {
+	DISPLAY: inline; MARGIN-RIGHT: 12px
+}
+.uploading .info SPAN {
+	COLOR: #666
+}
+.uploading .uploadbar {
+	BORDER-BOTTOM: #299ccc 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #299ccc 1px solid; MARGIN: 0px 0px 6px; WIDTH: 347px; BACKGROUND: url(images/manage/sprite.png) no-repeat -363px -150px; HEIGHT: 10px; BORDER-TOP: #299ccc 1px solid; BORDER-RIGHT: #299ccc 1px solid
+}
+.uploading .uploadbar SPAN {
+	LINE-HEIGHT: 1px; TEXT-INDENT: -9999px; DISPLAY: block; BACKGROUND: url(images/manage/sprite.png) no-repeat 0px -150px; HEIGHT: 10px; FONT-SIZE: 1px
+}
+#subTab_photo {
+	PADDING-LEFT: 40px; CLEAR: both
+}
+#B-Manage-Album-Photo .fix {
+	PADDING-LEFT: 40px; CLEAR: both
+}
+#subTab_photo li {
+	LINE-HEIGHT: 32px; FLOAT: left; COLOR: #8d8a5d; PADDING-TOP: 6px
+}
+#subTab_photo A {
+	COLOR: #8d8a5d
+}
+#subTab_photo SPAN {
+	COLOR: #db3211
+}
+#B-Manage-Album-Photo .fix {
+	HEIGHT: 20px; COLOR: #888
+}
+#Figure .mVideo {
+	BORDER-BOTTOM: #e4e0d5 1px solid; BORDER-LEFT: #e4e0d5 1px solid; PADDING-BOTTOM: 10px; MARGIN: 0px 0px 20px 33px; PADDING-LEFT: 10px; WIDTH: 120px; PADDING-RIGHT: 10px; DISPLAY: inline; FLOAT: left; HEIGHT: 150px; BORDER-TOP: #e4e0d5 1px solid; BORDER-RIGHT: #e4e0d5 1px solid; PADDING-TOP: 10px
+}
+#Figure .s {
+	BACKGROUND-COLOR: #f5f5ed
+}
+#Figure IMG {
+	WIDTH: 120px; HEIGHT: 120px; VERTICAL-ALIGN: middle
+}
+#Figure .h {
+	HEIGHT: 16px; PADDING-TOP: 14px
+}
+#Figure .del {
+	PADDING-LEFT: 2px; COLOR: #d93510; MARGIN-RIGHT: 40px
+}
+#Figure .set {
+	COLOR: #777
+}
+#MyPhotoTake {
+	CLEAR: both
+}
